@@ -1,6 +1,6 @@
 #pragma once
 
-#if defined(WIN32) || defined(WINDOWS)
+#if defined(WIN32) || defined(_WINDOWS)
 	#ifdef _EXPORTING
 		#define GAME_API __declspec(dllexport)
 	#elif _IMPORTING
